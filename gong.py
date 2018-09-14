@@ -10,6 +10,8 @@ sleep(10)
 
 sys.exit()
 
+# Cronjobs werden mit root Rechten mit dem Befehl crontab -e eingegeben.
+
 #Cronjobs
 
 #Anfang MON-DON
