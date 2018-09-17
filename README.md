@@ -1,2 +1,2 @@
-# gong
-gong
+# Pausengong
+by Fabian Siebels
