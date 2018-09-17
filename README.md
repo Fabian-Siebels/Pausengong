@@ -42,5 +42,5 @@ Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo cro
 
 ## 3. Gongsound ändern
 
-Der Gongsound wird in der `gong.py` geändert, dazu muss der Sound muss in dem Verzeichnis `/home/pi/Pausengong` als **gongsound.wav** vorhanden sein. Falls das System verändert wird, muss der Pfad angepasst werden.
+Der Gongsound wird in der Python Datei `Pausengong/gong.py` geändert, dazu muss der Sound in dem Verzeichnis `/home/pi/Pausengong` als **gongsound.wav** vorhanden sein. Falls das System verändert wird, muss der Pfad angepasst werden.
 
