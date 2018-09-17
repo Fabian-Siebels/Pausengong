@@ -15,12 +15,13 @@ Download: `git clone https://github.com/Fabian-Siebels/Pausengong.git`
 
 Der Pausengong besteht aus einem Raspberry Pi 3 und einem Python Script. Als Betriebssystem wird Raspian Stretch verwendet.
 Der Pi wird per AUX Kabel an das Soundsystem angeschlossen.
+
 ## 2. Gongzeiten ändern
 
 Das Script für den Gong wird mit einem Cronjob gesteuert.
 
 Eingetragen sind die Gongzeiten in der Datei `crontab -e`.
-Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo crontab`.
+Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo crontab` eingegeben werden.
 
 | Uhrzeit | Cronjob |
 |--|--|
@@ -41,5 +42,5 @@ Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo cro
 
 ## 3. Gongsound ändern
 
-Der Gongsound wird in der `gong.py` geändert. Der Sound muss in dem Verzeichnis `/home/pi/Pausengong` als **gongsound.wav** vorhanden sein. Falls das System verändert wird, muss der Pfad angepasst werden.
+Der Gongsound wird in der `gong.py` geändert, dazu muss der Sound muss in dem Verzeichnis `/home/pi/Pausengong` als **gongsound.wav** vorhanden sein. Falls das System verändert wird, muss der Pfad angepasst werden.
 
