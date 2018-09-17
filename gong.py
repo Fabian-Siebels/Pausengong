@@ -29,9 +29,9 @@ sys.exit()
 #*/ 15 * * 1-4 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
 #Freitag
 #Anfang
-#*/ 7 * * 1-4 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
+#*/ 7 * * 5 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
 #Fruehstueck
 #*/30 9 * * 5 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
-#*/45 9 * * 1-4 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
+#*/45 9 * * 5 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
 #Frei
-#*/ 12 * * 1-4 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
+#*/ 12 * * 5 /usr/bin/python /home/pi/gong.py >/dev/null 2>&1
