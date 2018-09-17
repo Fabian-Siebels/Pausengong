@@ -1,10 +1,12 @@
 #Gong by Fabian Siebels
 
+# Klassenimport
 import subprocess
 import sys
 from time import sleep
 
-
+#Öffnen und abspielen einer .wav Datei
+# /home/pi/... ist der Pfad, wo sich die .wav Datei befindet.
 subprocess.Popen(["aplay","/home/pi/gong.wav"], stdin=subprocess.PIPE)
 sleep(10)
 
