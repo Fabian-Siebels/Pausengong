@@ -11,6 +11,10 @@ Download: `git clone https://github.com/Fabian-Siebels/Pausengong.git`
  2. Gongzeiten ändern
  3. Gongsound ändern
 
+**Login**
+Benutzer: pi
+Passwort:
+
 ## 1. Aufbau
 
 Der Pausengong besteht aus einem Raspberry Pi 3 und einem Python Script. Als Betriebssystem wird Raspian Stretch verwendet.
