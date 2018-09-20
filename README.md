@@ -26,19 +26,19 @@ Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo cro
 | Uhrzeit | Cronjob |
 |--|--|
 |Mon-Don||
-| 7:15 | `*/15 7 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
-| 9:30 | `*/30 9 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
-| 9:45 | `*/45 9 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
-|11:30 | `*/30 11 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|12:00 |`*/ 12 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|14:45 |`*/45 14 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|15:00 |`*/ 15 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|16:15 |`*/15 16 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+| 7:15 | `15 7 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
+| 9:30 | `30 9 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
+| 9:45 | `45 9 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1` |
+|11:30 | `30 11 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|12:00 |`0 12 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|14:45 |`45 14 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|15:00 |`0 15 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|16:15 |`15 16 * * 1-4 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
 |Fri||
-|7:00 |`*/ 7 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|9:30 |`*/30 9 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
-|9:45 |`*/45 9 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`| 
-|12:00 |`*/ 12 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|   
+|7:00 |`0 7 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|9:30 |`30 9 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|
+|9:45 |`45 9 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`| 
+|12:00 |`0 12 * * 5 /usr/bin/python /home/pi/Pausengong/gong.py >/dev/null 2>&1`|   
 
 ## 3. Gongsound ändern
 
