@@ -21,7 +21,7 @@ Der Pi wird per AUX Kabel an das Soundsystem angeschlossen.
 Das Script für den Gong wird mit einem Cronjob gesteuert.
 
 Eingetragen sind die Gongzeiten in der Datei `crontab -e`.
-Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo crontab` eingegeben werden.
+Um diese aufzurufen, muss entweder als root `crontab -e` oder als user `sudo crontab -e` eingegeben werden.
 
 | Uhrzeit | Cronjob |
 |--|--|
